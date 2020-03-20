@@ -1,0 +1,16 @@
+{
+    "name": "raivovaisla/tvnet-feed",
+    "description": "Homework package made for CUBE Systems",
+    "authors": [
+        {
+            "name": "Raivo Vaisla",
+            "email": "raivovaisla@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RaivoVaisla\\TvnetFeed\\": "src/"
+        }
+    }
+}
