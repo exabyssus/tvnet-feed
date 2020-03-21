@@ -1,12 +1,12 @@
 # Requirements
-Laravel 6.*<br>
+Laravel 6.* (with database)<br>
 Unmodified `users` table<br>
 SMTP server
 
 # Modifies
 `users` table<br>
 Auth::user<br>
-Authentification routes
+Authentication routes
 
 # Installation
 Add the package:<br>
@@ -28,5 +28,5 @@ Launch migrations:
 
 # Usage
 To view the feed you must sign up (Head over to `/register`)<br>
-After registering, you must verify your email by clicking the link in the email received.<br>
+After registering, you must verify your email by clicking the link in the email received. (SMTP server must be connected)<br>
 After email is verified and you are authenticated, you can view the feed by going to `/feed`
