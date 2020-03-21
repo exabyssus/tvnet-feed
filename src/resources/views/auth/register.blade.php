@@ -18,7 +18,8 @@
         </div>
         <div class="row">
             <label class="required" for="password">Password:</label>
-            <input pattern=".{5,20}" type="password" name="password" id="password" placeholder="5-20 characters" required>
+            <input pattern=".{5,20}" type="password" name="password"
+                   id="password" placeholder="5-20 characters" required>
         </div>
         <button type="submit">Register</button>
     </form>

@@ -1,5 +1,6 @@
 $color-error: #ff0000;
 $color-success: #008000;
+$color-border: #ccc;
 
 body {
   margin: 0;
@@ -20,13 +21,14 @@ label {
   text-align: left;
   &.required:after {
     content: ' *';
-    color: #ff0000;
+    color: $color-error;
   }
 }
+
 input {
   padding: 5px;
   border-radius: 4px;
-  border: 1px solid #ccc;
+  border: 1px solid $color-border;
   outline: none;
 }
 
@@ -42,6 +44,28 @@ button {
 .auth-nav {
   button {
     float: right;
+  }
+}
+
+.postsList {
+  list-style-type: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+  li {
+    border-radius: 5px;
+    border: 1px solid $color-border;
+    padding: 5px 15px;
+    margin: 15px 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  h3, p {
+    color: #222;
+  }
+  img {
+    display: block;
+    width: 100%;
   }
 }
 

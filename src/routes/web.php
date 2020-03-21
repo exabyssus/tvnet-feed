@@ -3,7 +3,7 @@
 
 Route::group(['namespace' => 'RaivoVaisla\TvnetFeed\Http\Controllers', 'middleware' => ['web']], function () {
     Route::get('/home', function () {
-       return redirect('/');
+        return redirect('/');
     });
 
     Auth::routes(['verify' => true]);
