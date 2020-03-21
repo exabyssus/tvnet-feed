@@ -21,6 +21,11 @@
             <input pattern=".{5,20}" type="password" name="password"
                    id="password" placeholder="5-20 characters" required>
         </div>
+        <div class="row">
+            <label class="required" for="password_confirmation">Confirm password:</label>
+            <input pattern=".{5,20}" type="password" name="password_confirmation"
+                   id="password_confirmation" placeholder="5-20 characters" required>
+        </div>
         <button type="submit">Register</button>
     </form>
 @endsection
