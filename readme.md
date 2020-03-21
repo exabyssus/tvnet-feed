@@ -1,14 +1,14 @@
-#Requirements
+# Requirements
 Laravel 6.*<br>
 Unmodified `users` table<br>
 SMTP server
 
-#Modifies
+# Modifies
 `users` table<br>
 Auth::user<br>
 Authentification routes
 
-#Installation
+# Installation
 Add the package:<br>
 `composer require raivovaisla/tvnet-feed`
 
@@ -26,7 +26,7 @@ Launch command<br>
 Launch migrations:
 `php artisan migrate`
 
-#Usage
+# Usage
 To view the feed you must sign up (Head over to `/register`)<br>
 After registering, you must verify your email by clicking the link in the email received.<br>
 After email is verified and you are authenticated, you can view the feed by going to `/feed`
